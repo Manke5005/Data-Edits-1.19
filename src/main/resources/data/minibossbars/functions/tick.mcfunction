@@ -1,0 +1,4 @@
+function minibossbars:distancecheck
+function minibossbars:evokerbar
+function minibossbars:elderguardianbar
+function minibossbars:wardenbar

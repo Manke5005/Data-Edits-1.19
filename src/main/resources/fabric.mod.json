@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "dataedits",
+  "version": "${version}",
+
+  "name": "Data(pack) Edits",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Manke"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/dataedits/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zane.dataedits.DataEdits"
+    ],
+    "client": [
+      "net.zane.dataedits.DataEditsClient"
+    ]
+  },
+  "mixins": [
+    "dataedits.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

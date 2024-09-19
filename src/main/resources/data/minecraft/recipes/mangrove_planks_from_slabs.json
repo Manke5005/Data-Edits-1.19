@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "minecraft:mangrove_planks", "pattern": ["#", "#"], "key": {"#": {"item": "minecraft:mangrove_slab"}}, "result": {"item": "minecraft:mangrove_planks"}}
