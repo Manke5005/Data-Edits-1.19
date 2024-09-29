@@ -6,18 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 2.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -32,14 +27,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blaze_powder",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "additionaladditions:chicken_nugget",
-          "weight": 15
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -49,38 +60,63 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 2.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:iron_ingot",
           "weight": 15
-        },
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
           "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_otherside",
-          "weight": 3
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_stal",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "weight": 4
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "additionaladditions:music_disc_1007",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 16
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -104,14 +140,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:blaze_powder",
-          "weight": 8
+          "name": "minecraft:golden_carrot",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -147,13 +183,13 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 8
+          "weight": 4
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 2.0
+        "max": 3.0,
+        "min": 1.0
       }
     },
     {

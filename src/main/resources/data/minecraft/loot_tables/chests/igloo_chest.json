@@ -79,7 +79,7 @@
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",

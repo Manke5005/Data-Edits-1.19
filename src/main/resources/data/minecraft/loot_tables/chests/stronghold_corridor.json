@@ -34,7 +34,7 @@
             }
           ],
           "name": "minecraft:obsidian",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -114,13 +114,13 @@
             }
           ],
           "name": "minecraft:stick",
-          "weight": 12
+          "weight": 8
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 1.0
+        "max": 5.0,
+        "min": 2.0
       }
     },
     {
@@ -133,8 +133,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 5.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -142,7 +142,19 @@
           "name": "minecraft:bread"
         },
         {
-          "type": "minecraft:empty"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
@@ -152,13 +164,13 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 6.0,
-                "min": 4.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:apple"
-         }
+        }
       ],
       "rolls": {
         "type": "minecraft:uniform",
@@ -301,7 +313,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 3.0,
-        "min": 0.5
+        "min": 1.0
       }
     },
     {
@@ -310,17 +322,17 @@
         {
           "type": "minecraft:item",
           "name": "musketmod:musket",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "musketmod:musket_with_bayonet",
-          "weight": 3
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:elytra",
-          "weight": 3
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -380,37 +392,6 @@
         {
           "type": "minecraft:item",
           "name": "petriummod:petrium_ingot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "petriummod:petrium",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:end_crystal",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle",
           "weight": 3
         },
         {
@@ -426,25 +407,60 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:netherite_scrap",
+          "name": "petriummod:petrium",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
+          "name": "minecraft:end_crystal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
           "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:netherite_scrap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50.0,
+                "min": 24.0
+              },
               "treasure": true
             }
           ],
           "name": "minecraft:book",
-          "weight": 6
+          "weight": 2
         }
       ],
       "rolls": {

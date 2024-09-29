@@ -11,30 +11,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
-          "weight": 4
+          "name": "minecraft:diamond",
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -43,14 +27,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 5.0
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gold_ingot",
-          "weight": 25
+          "weight": 22
         },
         {
           "type": "minecraft:item",
@@ -66,6 +66,21 @@
             }
           ],
           "name": "minecraft:emerald",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarletgemmod:scarlet_gem",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
           "weight": 6
         },
         {
@@ -75,72 +90,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone",
-          "weight": 18
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:spider_eye",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 7.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 2.0,
-                "min": 3.0
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gold_block",
-          "weight": 10
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -155,23 +112,39 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50.0,
+                "min": 4.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 20
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
-          "weight": 12
+          "weight": 8
         },
         {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 6
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 6.0,
-        "min": 4.0
+        "max": 5.0,
+        "min": 3.0
       }
     },
     {
@@ -185,7 +158,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 1.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -200,14 +173,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 8.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gunpowder",
-          "weight": 24
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -217,7 +190,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 1.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -232,14 +205,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:string",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -248,14 +221,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "scarletgemmod:scarlet_gem",
-          "weight": 20
+          "name": "minecraft:spider_eye",
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -265,23 +238,23 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 8.0,
-                "min": 6.0
+                "min": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:sand",
-          "weight": 5
+          "weight": 12
         }
       ],
-      "rolls": 4.0
+      "rolls": 5.0
     },
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:item",

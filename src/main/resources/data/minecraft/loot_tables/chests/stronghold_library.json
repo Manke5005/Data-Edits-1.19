@@ -11,24 +11,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:paper"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 4.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -36,40 +26,70 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 3.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:book",
-          "weight": 20
-        },
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 9.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
-          "weight": 10
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "weight": 10
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25.0,
+                "min": 4.0
+              },
+              "treasure": true
             }
           ],
           "name": "minecraft:book",
-          "weight": 30
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 4.0,
+        "max": 3.0,
         "min": 2.0
       }
     },
@@ -79,7 +99,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:recovery_compass",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:empty",
@@ -99,10 +119,10 @@
             }
           ],
           "name": "minecraft:experience_bottle",
-          "weight": 3
+          "weight": 4
         }
       ],
-      "rolls": 1.0
+      "rolls": 2.0
     },
     {
       "bonus_rolls": 0.0,

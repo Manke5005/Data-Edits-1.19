@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "E": {
-      "item": "scarletgemmod:scarlet_gem"
+      "item": "minecraft:amethyst_shard"
     },
     "G": {
       "item": "minecraft:glass"
@@ -12,9 +12,9 @@
     }
   },
   "pattern": [
-    "GGG",
     "GEG",
-    "GTG"
+    "ETE",
+    "GEG"
   ],
   "result": {
     "item": "minecraft:end_crystal"

@@ -1,0 +1,42 @@
+{
+  "name": "ipo:pillager_outpost/towers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ipo:pillager_outpost/tower/regular",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ipo:pillager_outpost/tower/overgrown",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ipo:pillager_outpost/tower/damaged",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ipo:pillager_outpost/tower/damaged_overgrown",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

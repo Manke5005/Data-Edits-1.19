@@ -4,6 +4,17 @@
   "package": "net.zane.dataedits.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "GhastMixin",
+    "WitchMixin",
+    "EndermanMixin",
+    "EvokerMixin",
+    "IllusionerMixin",
+    "VexMixin",
+    "ShulkerBulletMixin",
+    "MagmaCubeMixin",
+    "DrownedMixin",
+    "WitherMixin",
+    "PhantomMixin"
   ],
   "client": [
     "DataEditsMixin"

@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 5.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
@@ -43,14 +43,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 5.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 40
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -59,14 +59,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 6
+          "name": "scarletgemmod:scarlet_gem",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "petriummod:petrium",
+          "weight": 2
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 6.0,
-        "min": 3.0
+        "min": 2.0
       }
     },
     {
@@ -80,7 +85,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
-                "min": 5.0
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -96,7 +101,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
-                "min": 5.0
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }

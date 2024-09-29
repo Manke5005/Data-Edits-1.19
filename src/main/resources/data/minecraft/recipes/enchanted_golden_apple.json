@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "T": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "ETE",
+    "GEG"
+  ],
+  "result": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}
